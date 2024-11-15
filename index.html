@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       // let a=23;   
+       let a ="this is my first programa";
+        console.log(a); 
+        // Numbers
+        // Objects
+        // Booleans-true
+        // string
+        // underdefined
+        //null
+        function hello()
+        {
+            console.log("hello shashwat");
+        }
+        let obja=
+        {
+m: 23,
+f: 28,
+func: function myfunc (number)
+{
+     console.log ("the number is" + number);
+}
+ 
+        }
+        document.addEventListener("click",function click()
+        {
+            console.log("clicked");
+           // alert("hi");
+           let conf = confirm ("Are you sure ?");
+           console.log(conf);
+        })
+       let arr =[23,28,51];
+       console.log(this);
+       let mobj ={
+        myfunc: (number)=>
+        {
+            console.log("the no is " +this);
+        }
+       }
+       mobj.myfunc(); 
+ </script>
+</head>
+<body>
+    <h1>
+        
+        I am learning js
+    </h1>
+</body>
+</html>
